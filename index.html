@@ -2,52 +2,63 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--link to my google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap" rel="stylesheet">
     <!-- Link your CSS stylesheet -->
     <link rel="stylesheet" href="index.css">
     <title>Yosemite National Park Fun Page</title>
   </head>
   <body>
     
-    <header id="learn">
-      <nav class="links">
-          <a href="#plan">Plan your Visit</a>
-          <a href="#learn">Learn about the Park</a>
-          <a href="#volnteer">Get Involved</a>
+    <header>
+      <nav>
+          <a href="#plan" class="orange">Plan your<br>Visit</a>
+          <a href="#learn" class="blue">Learn about<br>the Park</a>
+          <a href="#volnteer" class="yellow">Get<br>Involved</a>
       </nav>
-      <img class="header-image" src="assets/header_img.jpg" alt="Yosemite National Park Picture">
-      <main>
-        <h1>Yosemite Park Guide</h1>
-        <p>Come explore California&apos;s beautiful wilderness.</p>
-        <p>Always open. Reservations are not<br>available or required to enter the<br>park.</p>
-      </main>
-
     </header>
 
-    <section>
+    <section class="cta">
+      <div class="image">
+        <img class="round" src="assets/header_img.jpg" alt="Yosemite National Park Picture">
+      </div>
+      <div class="text">
+        <div>
+          <h1>Yosemite Park Guide</h1>
+          <h2>Come explore California&apos;s beautiful wilderness.</h2>
+          <p>Always open. Reservations are not available or required to enter the park.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="main">
       <p>Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.</p>
       
       <p>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p>
-      <article id="plan">
-        <div>
-          <img src="assets/campfire.png" alt="Cartoon Campfire">
-          <p>Fire is a natural and essential<br>part of Yosemite. We manage fire<br>carefully and study how it<br>interacts with the park&apos;s<br>ecosystems. This blog provides<br>updates about fires in Yosemite.<br>Check for current fire<br>restrictions.</p>
-        </div>
-        <div>
-          <img src="assets/camper.png" alt="cartoon camper">
-          <p>We strongly recommend that you make<br>reservations for lodging, camping,<br>and backpacking. You can pay the<br>park entrance fee upon arrival<br>(there's no need to pay it in<br>advance).</p>
-        </div>
-      </article>
     </section>
-        
-    <footer id="volunteer">
-      <img src="assets/footer_img.jpg" alt="Panorama of Yosemite at Sunset">
-      <nav class="links">
-        <a href="#plan">Plan your Visit</a>
-        <a href="#learn">Learn about the Park</a>
-        <a href="#volnteer">Get Involved</a>
+    
+    <section class="info">
+      <div class="campfire">
+        <img src="assets/campfire.png" alt="Cartoon Campfire">
+        <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park&apos;s ecosystems. This blog provides updates about fires in Yosemite.Check for <span class="bold">current fire restrictions</span>.</p>
+      </div>
+      <div class="camper">
+        <img src="assets/camper.png" alt="cartoon camper">
+        <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the <span class="bold">park entrance fee</span> upon arrival (there's no need to pay it in advance).</p>
+      </div>
+    </section>
+    
+    <section class="bg-img">
+      <!-- empty sections with panorama-->
+    </section>
+
+    <footer>
+      <nav>
+        <a href="#plan" class="orange">Plan your<br>Visit</a>
+        <a href="#learn" class="blue">Learn about<br>the Park</a>
+        <a href="#volnteer" class="yellow">Get<br>Involved</a>
       </nav>
     </footer>
-       
-        
   </body>
 </html>
